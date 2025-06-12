@@ -1,6 +1,6 @@
 # Generic DataGrid Fullstack App
 
-A fullstack application featuring a generic data grid with CSV upload and search functionality.
+A Generic DataGrid app using AG Grid (React) and integrate Backend Service (Express.js, MongoDB)
 
 ## Getting Started
 
