@@ -1,0 +1,121 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap'); */
+
+/* variables */
+:root {
+    --color-background: linear-gradient(to right, #bbcad6, #84b0d1);
+    --color-background-todo: #CEA2FD;
+    --color-background-button: #ffffff;
+    --color-font-primary: blue;
+    --color-font-secondary: #ffffff;
+}
+
+* {
+    font-family: "Architects", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color-font-primary);
+    background: var(--color-background);
+    font-size: 1.2rem;
+}
+
+.App {
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem;
+    margin: 4rem auto;
+    color: var(--color-font-primary);
+}
+
+.App > h1 {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-background-button);
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #333333;
+}
+
+.Card--text h1 {
+    color: var(--color-font-primary);
+    font-size: 2rem;
+}
+
+.Card--button button {
+    background: var(--color-background-button);
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+}
+
+.Card--button__delete {
+    border: 1px solid #ca0000;
+    color: #ca0000;
+    font-size: 1rem;
+}
+
+.Card--button__done {
+    border: 1px solid #00aa69;
+    color: #00aa69;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+/* To-do, Description, Add */
+.Form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: var(--color-background-button);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #333333;
+}
+
+.Form div+div input {
+    width: 150%;
+}
+
+.Form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form input {
+    background: var(--color-background-button);
+    padding: 0.5rem 1rem;
+    border: 1px solid blue;
+    display: block;
+    margin: 0.3rem 1rem 0 0;
+    font-size: 1rem;
+}
+
+.Form button {
+    background: var(--color-background-button);
+    border: 1px solid blue;
+    color: blue;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.hide-button {
+    display: none;
+}
