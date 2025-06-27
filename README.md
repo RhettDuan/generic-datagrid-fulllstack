@@ -2,6 +2,17 @@
 
 A **Generic DataGrid** fullstack application featuring a reusable **DataGrid** component built with **AG Grid** (React), integrated with a backend built using **Express.js** and **MongoDB**.
 
+## 📸 App Preview
+
+Below is a screenshot of the frontend DataGrid app UI:
+
+![App Screenshot](client/public/images/screenshot-20250612-072913.png)
+
+Key features like: **search and filter** capabilities:
+![App Screenshot](client/public/images/screenshot-20250612-073037.png)
+
+*This screenshot highlights how the search bar can query across all data fields, and the filter dropdown enables per-column filters like startsWith, contains, greaterThan, etc.*
+
 ## Getting Started
 
 This section guides you through setting up both the backend and frontend for the application.
